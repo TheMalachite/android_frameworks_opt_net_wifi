@@ -1151,4 +1151,7 @@ public class ActiveModeWarden {
             qtiClientManager.getClientModeImpl().enableVerboseLogging(verbose);
         }
     }
+
+    public void registerStaEventCallback() {}
+    public void unregisterStaEventCallback() {}
 }
